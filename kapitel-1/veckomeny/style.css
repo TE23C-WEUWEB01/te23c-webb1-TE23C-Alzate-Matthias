@@ -1,0 +1,33 @@
+body {
+    background-color: #f9dddd;
+}
+
+table {
+    background-color: pink;
+    width: 1000px;
+}
+
+caption {
+    padding: 30px;
+    font-size: 50px;
+    background-image: url(./bilder/tablecloth.jpg);
+}
+
+tr {
+
+}
+
+th {
+    padding: 20px;
+    font-size: 30px;
+}
+
+td {
+    background-color: #fff;
+    padding: 10px;
+}
+
+img {
+    width: 300px;
+}
+
