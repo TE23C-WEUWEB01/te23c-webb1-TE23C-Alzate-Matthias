@@ -1,0 +1,84 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: 4787abff;
+    background-image: url(./bilder/max-bender-1YHXFeOYpN0-unsplash.jpg);
+}
+
+/* Sidans layout  */
+div.sidan {
+
+    width: 800px;
+    margin: auto;
+    border: 1 solid  #212f43ff;
+    background-color:  #212f43ff;
+    box-shadow: 0 0 50px white;
+}
+
+div.inlägg {
+    margin-left: 80px;
+    border: 1px solid #3c4566ff;
+    border-radius: 1px;
+    margin-right: 70px;
+    background: #3c4566ff;
+    padding-right: 130px;
+}
+
+/* Sidans innehåll */
+
+h1 {
+    padding-top: 90px;
+    padding-bottom: 20px;
+    font-size: 80px;
+    margin-left: 180px;
+    color: aliceblue;
+    text-shadow: 3px 3px #5763a1;
+}
+
+h2 {
+
+    color: aliceblue;
+    margin-left: 120px;
+}
+
+img {
+
+    width: 400px;
+    margin-left: 120px;
+    margin-top: 60px;
+    border: 10px solid #4d3b5dff;
+    border-radius: 3px;
+
+}
+
+p.datum {
+    margin-left: 120px;
+    color: aliceblue;
+}
+
+p {
+    margin-left: 120px;
+    margin-top: 10px;
+    color: aliceblue;
+}
