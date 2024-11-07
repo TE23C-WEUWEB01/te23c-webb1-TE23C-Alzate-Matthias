@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Enkel CSS-reset */
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+
+/* LAYOUT */
+body {
+    background-color: #6E47B4;
+
+}
+
+.kontainer {
+    font-family: "Roboto", sans-serif;
+    width: 800px;
+    margin: auto;
+    padding: 30px;
+    background-color: #E8DFF3;
+}
+
+.bild {
+    background-color: #5A5A5A;
+    color: white;
+    padding: 20px;
+}
+
+/* TITLES */
+h1 {
+    font-family: "Faster One", system-ui;
+    font-size: 75px;
+}
+
+h2 {
+
+}
+
+/* PAGES CONTENT */
+img {
+    width: 200px;
+}
+
+.bildtext {
+    
+}
+
+.thanks {
+
+}
+
+a {
+
+}
