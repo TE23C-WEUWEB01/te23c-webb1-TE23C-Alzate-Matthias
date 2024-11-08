@@ -26,25 +26,37 @@ body {
     background-color: #E8DFF3;
 }
 
+.kolumner {
+    display: flex;
+    gap: 50px;
+}
+
 .bild {
     background-color: #5A5A5A;
     color: white;
     padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 50px;
+    border-radius: 10px;
 }
 
 /* TITLES */
 h1 {
     font-family: "Faster One", system-ui;
     font-size: 75px;
+    margin-bottom: 20px;
 }
 
 h2 {
-
+    margin-bottom: 20px;
 }
 
 /* PAGES CONTENT */
 img {
-    width: 200px;
+    width: 100px;
+    border-radius: 10px;
+    border: 5px solid white;
 }
 
 .bildtext {
