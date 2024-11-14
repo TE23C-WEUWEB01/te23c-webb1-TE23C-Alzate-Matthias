@@ -1,0 +1,50 @@
+/* Enkel CSS-reset */
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+
+/* Layout */
+
+body {
+    background-color: #1F363D;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: #40798C;
+}
+
+/* Content */
+
+
+h1 {
+    
+}
+
+h2 {
+    
+}
+
+p {
+
+}
+
+.picture {
+
+}
+
+h3 {
+
+}
+
+img {
+
+}
