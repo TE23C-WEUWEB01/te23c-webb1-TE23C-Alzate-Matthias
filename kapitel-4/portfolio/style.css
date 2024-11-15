@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=DM+Serif+Display:ital@0;1&display=swap');
+
 /* Enkel CSS-reset */
 html {
 box-sizing: border-box;
@@ -17,34 +19,64 @@ body {
 }
 
 .container {
-    width: 800px;
+    width: 1000px;
     margin: auto;
     background-color: #40798C;
+    padding: 50px;
 }
 
 /* Content */
 
 
 h1 {
-    
+    padding-bottom: 30px;
+    font-size: 50px;
+    text-align: center;
+    font-family: "DM Serif Display", serif;
 }
 
 h2 {
-    
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+}
+
+.text {
+    text-align: center;
 }
 
 p {
+    padding-bottom: 20px;
+    font-family: "Abel", sans-serif;
+}
 
+ul {
+    text-align: center;
+    list-style-type: none;
+    font-family: "Abel", sans-serif;
 }
 
 .picture {
-
+    background-color: #DCD6F7;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+    border: 3px solid #B4869F;
+    border-radius: 10px;
 }
 
 h3 {
+    text-align: center;
+    padding-bottom: 20px;
+}
 
+a {
+    text-decoration: none;
 }
 
 img {
-
+    width: 250px;
+    border-radius: 50px;
 }
