@@ -74,6 +74,12 @@ h3 {
 
 a {
     text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.507);
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.144);
 }
 
 img {
