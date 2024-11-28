@@ -28,16 +28,16 @@ body {
 
 /* MENY */
 
-ul {
+.container ul {
     display: flex;
     justify-content: space-between;
 }
 
-li {
+.container ul li {
     list-style-type: none;
 }
 
-a {
+.container ul a {
     text-decoration: none;
     background-color: #48CAE4;
     color: #ADE8F4;
@@ -49,19 +49,23 @@ a {
     box-shadow: 3px 3px 0 gray;
 }
 
-a:hover {
+.container ul .active {
+    background-color: #023E8A;
+}
+
+.container ul a:hover {
     background-color: #023E8A;
 }
 
 /* CONTENT */
 
-h1 {
+.container h1 {
     font-family: "Purple Purse", serif;
     color: #00B4D8;
     font-size: 80px;
 }
 
-figure {
+.container figure {
     background-color: #90E0EF;
     padding: 10px;
     width: 60%;
@@ -70,18 +74,23 @@ figure {
     margin-bottom: 20px;
 }
 
-img {
+.container figure img {
     width: 100%;
 }
 
-figcaption {
+.container figure figcaption {
 
 }
 
-p {
+.container p {
     margin-bottom: 15px;
 }
 
-.tack {
+.container .tack {
+    font-style: italic;
+}
 
+.container .tack a {
+    text-decoration: none;
+    color: red;
 }
