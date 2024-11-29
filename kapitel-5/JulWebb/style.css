@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+/* Enkel CSS-reset */
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+
+/* LAYOUT */
+
+body {
+    background-color: #386641;
+}
+
+.container {
+    font-family: "Shadows Into Light", cursive;
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    background-color: #6A994E;
+}
+
+/* MENY */
+
+.container ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container ul li {
+    list-style-type: none;
+}
+
+.container ul a {
+    text-decoration: none;
+    background-color: #A7C957;
+    color: black;
+    padding: 10px;
+    width: 130px;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 0 gray;
+}
+
+.container ul .active {
+    background-color: #386641;
+}
+
+.container ul a:hover {
+    background-color: #386641;
+}
+
+/* CONTENT */
+
+.container h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.container figure {
+    background-color: #F2E8CF;
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container figure img {
+    width: 100%;
+}
+
+.container figure figcaption {
+
+}
+
+.container p {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.container .tack {
+    font-style: italic;
+}
+
+.container .tack a {
+    text-decoration: none;
+    color: #BC4749;
+}
+
+form {
+    background-color: #f0f8ff; /* Alice Blue */
+    padding: 20px;
+    border-radius: 10px;
+}
+label {
+    color: #228b22; /* Forest Green */
+}
+textarea {
+    border: 2px solid #228b22;
+    border-radius: 5px;
+}
+button {
+    background-color: #dc143c; /* Crimson */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
