@@ -16,6 +16,7 @@ padding: 0;
 
 body {
     background-color: #386641;
+    background-image: url(./bilder/tumblr_mxbdstH71S1sfvpsto1_1280.gif);
 }
 
 .container {
@@ -26,11 +27,24 @@ body {
     background-color: #6A994E;
 }
 
+/* RESPONSIV DESIGN */
+
+@media (max-width: 600px) {
+    ul {
+        flex-direction: column;
+    }
+
+    ul a {
+        margin: 5px 0;
+    }
+}
+
 /* MENY */
 
 .container ul {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .container ul li {
