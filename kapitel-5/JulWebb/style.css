@@ -110,19 +110,19 @@ body {
 }
 
 form {
-    background-color: #f0f8ff; /* Alice Blue */
+    background-color: #f0f8ff; 
     padding: 20px;
     border-radius: 10px;
 }
 label {
-    color: #228b22; /* Forest Green */
+    color: #228b22; 
 }
 textarea {
     border: 2px solid #228b22;
     border-radius: 5px;
 }
 button {
-    background-color: #dc143c; /* Crimson */
+    background-color: #dc143c; 
     color: white;
     border: none;
     padding: 5px 10px;
