@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+Bg färg = #FBF7F1
+Bg bild = #F5EBDC
+Textfärg = #502314
+knappen färg = #CC2200
+Typsnitt = Modak
+
+ font-family: "Modak", serif;
+  font-weight: 400;
+  font-style: normal;
+
+*/
+
+/* sidlayout */
+body {
+
+}
+
+.kontainer {
+
+}
+
+/* Sidhuvud */
+.sidhuvud {
+
+}
+
+.sidhuvud .meny {
+
+}
+
+.sidhuvud .meny a {
+
+}
+
+.sidhuvud .erbjudanden {
+
+}
+
+
+
+/* Sidinnehållet */
+.innehall {
+  
+}
+
+.innehall h2 {
+
+}
+
+.innehall .kolumner-3 {
+
+}
+
+.innehall .kolumner-3 .burgare {
+
+}
+.innehall .kolumner-3 .burgare img {
+
+}
+
+.innehall .kolumner-3 .burgare p {
+
+}
