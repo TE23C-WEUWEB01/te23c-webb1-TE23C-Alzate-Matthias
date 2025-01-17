@@ -84,13 +84,13 @@ body {
     background-color: #F5EBDC;
     text-align: center;
     border-radius: 10px;
-    transition-duration: 500ms;
+    transition-duration: 300ms;
     height: 150px;
     cursor: pointer;
 }
 
 .innehall .kolumner-3 .burgare:hover {
-    transition-duration: 500ms;
+    transition-duration: 300ms;
     height: 400px;
 }
 
