@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+
+
+*/
+
+/* LAYOUT */
+body {
+   background-image: url(./bilder/backgrund.jpg);
+   background-size: cover;
+   background-position-y: -150px;
+   background-repeat: no-repeat;
+   background-color: #f5f0dd;
+}
+
+.kontainer {
+    width: 1000px;
+    margin: auto;
+    font-family: "Roboto", serif;
+}
+
+/* MENY */
+.meny {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 30px;
+    
+}
+
+.meny a {
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    font-weight: 1000;
+}
+
+.meny img {
+    width: 150px;
+}
+
+/* CONTENT */
+.sida {
+    background-color: #f9f8f1;
+    padding: 20px;
+}
+
+.sida h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.sida p {
+    text-align: center;
+    padding: 20px;
+}
+
+.sida .rutor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.sida .rutor .produkt {
+    background-color: #fff;
+}
+
+.sida .rutor .produkt img {
+    width: 225px;
+}
+
+.sida .rutor .produkt p {
+    text-align:center ;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+
+
+
+
