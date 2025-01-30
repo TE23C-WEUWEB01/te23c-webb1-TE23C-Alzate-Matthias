@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+Bg färg = #FBF7F1
+Bg bild = #F5EBDC
+Textfärg = #502314
+knappen färg = #CC2200
+Typsnitt = Modak
+*/
+
+/* sidlayout */
+body {
+    background-color: #FBF7F1;
+}
+
+.kontainer {
+    width: 1100px;
+    margin: auto;
+    font-family: "Modak", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #502314;
+}
+
+/* Sidhuvud */
+.sidhuvud {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.sidhuvud .meny {
+    padding: 10px;
+}
+
+.sidhuvud .meny a {
+    text-decoration: none;
+    color: #502314;
+    padding: 20px 10px;
+}
+
+.sidhuvud .erbjudanden {
+    text-decoration: none;
+    color: #CC2200;
+    padding: 10px;
+    border: 2px solid #CC2200;
+    border-radius: 5px;
+}
+
+
+
+/* Sidinnehållet */
+.innehall {
+  
+}
+
+.innehall h2 {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.innehall .kolumner-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.innehall .kolumner-3 .burgare {
+    background-color: #F5EBDC;
+    text-align: center;
+    border-radius: 10px;
+    transition-duration: 300ms;
+    height: 150px;
+    cursor: pointer;
+}
+
+.innehall .kolumner-3 .burgare:hover {
+    transition-duration: 300ms;
+    height: 400px;
+}
+
+.innehall .kolumner-3 .burgare img {
+    width: 300px;
+}
+
+.innehall .kolumner-3 .burgare p {
+    font-size: 25px;
+}
+
+.innehall .kolumner-3 .burgare p.fix {
+    margin-top: 60px;
+}
