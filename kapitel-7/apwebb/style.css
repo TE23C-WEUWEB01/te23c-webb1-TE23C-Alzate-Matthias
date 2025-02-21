@@ -19,17 +19,56 @@ img {
 body {
     background-image: url(./bilder/justin-clark-H7JiEU8Slnw-unsplash.jpg);
 }
-.kontainer {
-    width: 1000px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas: 
-    "sidhuvud sidhuvud"
-    "innehall sidbar "
-    "sidfot sidfot";
-    gap: 20px;
+
+
+/* Responsiv layout */
+
+/* Små enheter < 576px bred */
+@media (min-width: 576px) {
+    .kontainer {
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "sidhuvud"
+        "innehall"
+        "sidebar"
+        "sidfot";
+        gap: 20px;
+    }  
 }
+
+/* Mellan enheter 576px < bredd < 768px */
+@media (min-width: 768px) {
+    .kontainer {
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto 200px;
+        grid-template-areas: 
+        "sidhuvud sidhuvud"
+        "innehall sidbar "
+        "sidfot sidfot";
+        gap: 20px;
+    }  
+}
+
+/* Stora enheter bredd < 1280px */
+@media (min-width: 1280px) {
+    .kontainer {
+        width: 1280px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-areas: 
+        "sidhuvud sidhuvud"
+        "innehall sidbar "
+        "sidfot sidfot";
+        gap: 20px;
+    }
+}
+
 header {
     grid-area: sidhuvud;
 }
